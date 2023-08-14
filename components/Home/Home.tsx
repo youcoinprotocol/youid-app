@@ -232,17 +232,19 @@ export const Home: React.FC = () => {
             )
             .map((reputation) => {
               return (
-                <img
-                  key={reputation.id}
-                  src={reputation.content?.logo ?? ""}
-                  alt={reputation.name}
-                  width={32}
-                  height={32}
-                  style={{
-                    objectFit: "cover",
-                    borderRadius: "50%",
-                  }}
-                />
+                <a href={reputation.content?.linkUrl ?? ""} key={reputation.id}>
+                  <img
+                    key={reputation.id}
+                    src={reputation.content?.logo ?? ""}
+                    alt={reputation.name}
+                    width={32}
+                    height={32}
+                    style={{
+                      objectFit: "cover",
+                      borderRadius: "50%",
+                    }}
+                  />
+                </a>
               );
             })}
         </Stack>
