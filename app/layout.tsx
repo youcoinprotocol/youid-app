@@ -10,6 +10,7 @@ const roboto = Roboto({
 export const metadata = {
   title: "YOU ID",
   description: "YOU is better than WorldCoin",
+  metadataBase: new URL("https://id.youcoin.org/"),
   openGraph: {
     title: "YOU ID",
     description: "YOU is better than WorldCoin",
