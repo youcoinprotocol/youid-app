@@ -8,17 +8,17 @@ const roboto = Roboto({
 });
 
 export const metadata = {
-  title: "YOU COIN",
+  title: "YOU ID",
   description: "YOU is better than WorldCoin",
   openGraph: {
-    title: "YOU COIN",
+    title: "YOU ID",
     description: "YOU is better than WorldCoin",
     locale: "en_US",
     type: "website",
-    url: "https://youcoin.org/",
-    siteName: "YOU COIN",
+    url: "https://id.youcoin.org/",
+    siteName: "YOU ID",
     images: "/assets/logo.png",
-    image: "https://www.youcoin.org/assets/logo.png",
+    image: "https://id.youcoin.org/assets/logo.png",
   },
   twitter: {
     card: "summary_large_image",
